@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="14" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-11T10:42:48 IST" name="Loan Department" finished-at="2021-01-11T10:42:48 IST" duration-ms="44">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:test.day2@1018bde2]" name="ploan" class="test.day2"/>
+        <method signature="day3.MobileLoginincarLoan()[pri:0, instance:test.day3@65b3f4a4]" name="MobileLoginincarLoan" class="test.day3"/>
+        <method signature="day4.MobileLoginHomeLoan()[pri:0, instance:test.day4@f2ff811]" name="MobileLoginHomeLoan" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-01-11T10:42:48 IST" name="Regression" finished-at="2021-01-11T10:42:48 IST" duration-ms="44">
+      <class name="test.day4">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@f2ff811]" started-at="2021-01-11T10:42:48 IST" name="MobileLoginHomeLoan" finished-at="2021-01-11T10:42:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method signature="ploan()[pri:0, instance:test.day2@1018bde2]" started-at="2021-01-11T10:42:48 IST" name="ploan" finished-at="2021-01-11T10:42:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="MobileLoginincarLoan()[pri:0, instance:test.day3@65b3f4a4]" started-at="2021-01-11T10:42:48 IST" name="MobileLoginincarLoan" finished-at="2021-01-11T10:42:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginincarLoan -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>

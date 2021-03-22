@@ -45,6 +45,10 @@ public class day1 {
 	@Test
 	public void SecondTest() {
 		System.out.println("Bye");
+		System.out.println("postJira2");
+		System.out.println("postJira3");
+		
+		
 	}
 
 }

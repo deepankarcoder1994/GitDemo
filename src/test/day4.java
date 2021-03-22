@@ -22,7 +22,11 @@ public class day4 {
 	public void LoginAPIHomeLoan() {
 		//restapi automation
 		System.out.println("APILoginhome");
-		
 	}
 
+	//Added on 22-03-2021
+	@Test
+	public void HellofromGitx() {
+		System.out.println("I came from Gitx through Github Commands");
+	}
 }
